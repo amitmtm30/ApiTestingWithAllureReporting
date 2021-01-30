@@ -7,7 +7,7 @@ def test_add_new_student():
     global id1
     api_url = "http://thetestingworldapi.com/api/studentsDetails"
     # open the json file in read mode
-    file = open("D:\RestApiProject\StudentManagementSystem\studentdetails.json", 'r')
+    file = open("C:\\API\\ApiTestingWithAllureReporting\\StudentManagementSystem\\studentdetails.json", 'r')
     # Reading the file
     json_file = file.read()
     # parsing the file  in to json format

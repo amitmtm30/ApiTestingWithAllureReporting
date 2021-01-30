@@ -7,7 +7,7 @@ import jsonpath
 def test_add_student_data():
     api_url = "http://thetestingworldapi.com/api/studentsDetails"
     # open the json file in read mode
-    file = open("D:\\RestApiProject\\StudentManagementSystem\\requestjson.json", 'r')
+    file = open("C:\\API\\ApiTestingWithAllureReporting\\StudentManagementSystem\\requestjson.json", 'r')
     # Reading the file
     json_file = file.read()
     # parsing the file  in to json format
@@ -33,7 +33,7 @@ def test_get_student_data():
 def test_update_student_data():
     api_url = "http://thetestingworldapi.com/api/studentsDetails/89621"
     # open the json file in read mode
-    file = open("D:\\RestApiProject\\StudentManagementSystem\\putrequest.json", 'r')
+    file = open("C:\\API\\ApiTestingWithAllureReporting\\StudentManagementSystem\\putrequest.json", 'r')
     # Reading the file
     json_file = file.read()
     # parsing the file  in to json format
